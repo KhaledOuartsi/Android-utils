@@ -15,7 +15,13 @@ GetInformations.getPhoneNumber((getContext());
 ```
 ### Also can:
 - Verify Email syntax 
+```java
+ boolean isEmail =new ValidationsForm().isValidEmail("");
+```
 - Verify Phone syntax 
+```java
+boolean isPhone = new ValidationsForm().isValidPhoneNumber("");
+```
 ### For the next version we will add:
 - Cheque connection network
 - Make a Toast
