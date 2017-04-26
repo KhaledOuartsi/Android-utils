@@ -2,8 +2,17 @@
 A sample android utils
 ### This library can :
 - Get Phone IMEI
+```java
+GetInformations.getIMEI(getContext());
+```
 - Get Email Acount (gmail)
+```java
+GetInformations.EmiailID(getContext());
+```
 - Get Phone Number
+```java
+GetInformations.getPhoneNumber((getContext());
+```
 ### Also can:
 - Verify Email syntax 
 - Verify Phone syntax 
