@@ -1,5 +1,16 @@
 # Android-utils
 A sample android utils
+
+## Usage
+
+Add to your project `build.gradle` file:
+
+```groovy
+dependencies {
+  compile 'com.delahkistraw:android-utils:0.1'
+}
+```
+
 ### This library can :
 - Get Phone IMEI
 ```java
