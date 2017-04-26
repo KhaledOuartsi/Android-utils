@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delahkistraw.sample.MainActivity">
+
+    <TextView
+        android:id="@+id/Imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:text="Imei"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email" />
+
+    <Button
+        android:id="@+id/btn_Imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Imei"
+        android:layout_alignBottom="@+id/Imei"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="Get IMEI" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+
+
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignTop="@+id/btn_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Email"
+        android:layout_below="@+id/btn_Imei"
+        android:layout_alignRight="@+id/btn_Imei"
+        android:layout_alignEnd="@+id/btn_Imei"
+        android:layout_marginTop="92dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:layout_alignTop="@+id/btn_phone"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email" />
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Phone"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/btn_email"
+        android:layout_alignLeft="@+id/btn_email"
+        android:layout_alignStart="@+id/btn_email" />
+
+    <TextView
+        android:id="@+id/ismail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is a email?"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/btn_email" />
+
+    <TextView
+        android:id="@+id/isphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="is a phone?"
+        android:layout_alignTop="@+id/btn_phone"
+        android:layout_alignLeft="@+id/ismail"
+        android:layout_alignStart="@+id/ismail"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+
+</RelativeLayout>
