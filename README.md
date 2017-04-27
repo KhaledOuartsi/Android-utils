@@ -22,7 +22,7 @@ String email = GetInformations.EmailID(getContext());
 ```
 - Get Phone Number
 ```java
-String phoneNumber = GetInformations.getPhoneNumber((getContext());
+String phoneNumber = GetInformations.getPhoneNumber(getContext());
 ```
 ### Also can:
 - Verify Email syntax 
