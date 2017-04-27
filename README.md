@@ -18,7 +18,7 @@ String imei = GetInformations.getIMEI(getContext());
 ```
 - Get Email Acount (gmail)
 ```java
-String email = GetInformations.EmiailID(getContext());
+String email = GetInformations.EmailID(getContext());
 ```
 - Get Phone Number
 ```java
