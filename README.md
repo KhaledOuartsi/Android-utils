@@ -14,15 +14,15 @@ dependencies {
 ### This library can :
 - Get Phone IMEI
 ```java
-GetInformations.getIMEI(getContext());
+String imei = GetInformations.getIMEI(getContext());
 ```
 - Get Email Acount (gmail)
 ```java
-GetInformations.EmiailID(getContext());
+String email = GetInformations.EmiailID(getContext());
 ```
 - Get Phone Number
 ```java
-GetInformations.getPhoneNumber((getContext());
+String phoneNumber = GetInformations.getPhoneNumber((getContext());
 ```
 ### Also can:
 - Verify Email syntax 
