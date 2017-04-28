@@ -15,7 +15,7 @@ public class GetInformations {
 
 
 
-    public static String getEmiailID(Context context) {
+    public static String getEmailID(Context context) {
         AccountManager accountManager = AccountManager.get(context);
         Account account = getAccount(accountManager);
         if (account == null) {
